@@ -324,7 +324,7 @@ global.wait = '🚩 ʟᴏᴀᴅɪɴɢ ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ... '
 global.eror = '```404 error```'
 global.dtu = 'ɪɴꜱᴛᴀɢʀᴀᴍ'
 global.dtc = 'ᴄᴀʟʟ ᴏᴡɴᴇʀ'
-global.phn = '+62 831-8166-6350'
+global.phn = '+6285866034212'
 
 /*=========== TYPE DOCUMENT ===========*/
 global.dpptx = 'application/vnd.openxmlformats-officedocument.presentationml.presentation'
@@ -364,10 +364,10 @@ global.htjava = '⫹⫺'    //hiasan
 global.hsquere = ['⛶','❏','⫹⫺']
 
 /*============== STICKER WM ==============*/
-global.stickpack = 'ᴇʟᴀɪɴᴀ ᴍᴜʟᴛɪᴅᴇᴠɪᴄᴇ'
+global.stickpack = 'C-Arv ᴍᴜʟᴛɪᴅᴇᴠɪᴄᴇ'
 global.stickauth = `☂︎\n𝗘\nl\na\ni\nn\na\n-\n𝗕\n𝗢\n𝗧\n✦\n\n⫹⫺ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ\nwa.me/${global.nomorbot}`
 global.packname = 'sᴛɪᴄᴋᴇʀ ʀᴇǫᴜᴇsᴛ ʙʏ'
-global.packname2 = 'ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴇʟᴀɪɴᴀ ᴀɪ'
+global.packname2 = 'ᴄʀᴇᴀᴛᴇᴅ ʙʏ c-arv'
 
 global.multiplier = 38 // The higher, The harder levelup
 
