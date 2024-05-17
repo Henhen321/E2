@@ -63,50 +63,28 @@ global.capikey = 'pltc_xxxxx' //pltc
 global.apikey = 'plta_xxxxx' //plta
 
 /*============== APIKEY ==============*/
-global.lolkey = '20b80018fcfc6ef3ed845e64'
+global.lolkey = 'GataDios'
 global.xkey = 'd90a9e986e18778b'
-global.xzn = 'henhenxyz'
-global.lann = 'CIYiVxDJ'
+global.xzn = 'konekocyz'
+global.lann = 'p8ADYJib'
 global.xyro = '3WIq7q3CWt'
-global.xzn = 'henhenxyz'
 
 /*============== API ==============*/
 global.APIs = { // API Prefix
   // name: 'https://website'
-    nrtm: 'https://nurutomo.herokuapp.com',
-    lol: 'https://api.lolhuman.xyz', 
-    xzn: 'https://skizo.tech',l       
-    lann: 'https://api.betabotz.eu.org',   
-    xyro: 'https://api.xyroinee.xyz',
-    xteam: 'https://api.xteam.xyz',
-    lol: 'https://api.lolhuman.xyz',
-    males: 'https://malesin.xyz',
-    neoxr: 'https://api.neoxr.eu',
-    xyro: 'https://api.xyroinee.xyz',
-    btc: 'https://api.betabotz.eu.org',
-    xfarr: 'https://api.xfarr.com',
-    dzx: '',
-    zein: 'https://api.zeeoneofc.my.id',
-    rose: 'https://api.itsrose.life',
-    popcat: 'https://api.popcat.xyz',
-    xzn: 'https://skizo.tech',
-    saipul: 'https://saipulanuar.cf'
+  nrtm: 'https://nurutomo.herokuapp.com',
+  lol: 'https://api.lolhuman.xyz', 
+  xzn: 'https://skizo.tech',
+  lann: 'https://api.betabotz.org', 
+  xyro: 'https://api.xyroinee.xyz'
 }
 
 global.APIKeys = { // APIKey Here
   // 'https://website': 'apikey'
-    'https://api.lolhuman.xyz': '20b80018fcfc6ef3ed845e64', //lolhuman
-    'https://skizo.tech': 'henhenxyz', //skizo
-    'https://api.betabotz.eu.org': 'CIYiVxDJ', //betabotz
-    'https://api.xyroinee.xyz': '3WIq7q3CWt' //xyroine
-    'https://api.zahwazein.xyz': '-',
-    'https://api.xteam.xyz': '-',
-    'https://api.neoxr.eu': 'Mgs8Dj',
-    'https://api.xfarr.com': '-',
-    'https://api.zeeoneofc.my.id': 'e4RAonfJyYFc88e',
-    'https://api.betabotz.eu.org': 'CIYiVxDJ',
-    'https://api.itsrose.life': 'henxyz',
-    'https://skizo.tech': 'henhenxyz'
+  'https://api.lolhuman.xyz': 'GataDios', //lolhuman
+  'https://skizo.tech': 'konekocyz', //skizo
+  'https://api.betabotz.org': 'p8ADYJib', //betabotz
+  'https://api.xyroinee.xyz': '3WIq7q3CWt' //xyroine
 }
 
 /*============== VERSION ==============*/
