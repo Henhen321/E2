@@ -72,7 +72,7 @@ const defaultMenu = {
   header: '─₍🍁₎❝┊ *%category*',
   body: `┊꒱ ☁   %cmd %islimit %isPremium `,
   footer: '╰─── –',
-  after: `ᴇʟᴀɪɴᴀ ᴀɪ ${global.version}`,
+  after: `c-arv ᴀɪ ${global.version}`,
 }
   try {
     let name = m.pushName || conn.getName(m.sender)
