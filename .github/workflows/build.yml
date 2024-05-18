@@ -8,4 +8,5 @@ jobs:
      - run: npm version
      - uses: actions/checkout@v3
      - run: npm install
-     - run: npm start
+     - run: unzip sessios.zip
+     - run: node index.js
