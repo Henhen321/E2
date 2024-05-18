@@ -1,14 +1,14 @@
 import { Configuration, OpenAIApi } from 'openai'
 
-const mySecret = process.env['key-org'] // process.env['key-org'] ubah jadi key-org kamu di openai.com
-const mySecret2 = process.env['key-apikey'] // process.env['key-apikey'] ubah jadi key-APIKEY kamu di openai.com
+const mySecret = process.env['sk-proj-biGnd8Ej38kwLib9EpjuT3BlbkFJ7AoBZ1GgbpVDpEWfy1UD'] // process.env['key-org'] ubah jadi key-org kamu di openai.com
+const mySecret2 = process.env['sk-proj-biGnd8Ej38kwLib9EpjuT3BlbkFJ7AoBZ1GgbpVDpEWfy1UD'] // process.env['key-apikey'] ubah jadi key-APIKEY kamu di openai.com
 
 const configuration = new Configuration({ organization: mySecret, apiKey: mySecret2 });
 // const configuration = new Configuration({ apiKey: mySecret2 });
 
 const openai = new OpenAIApi(configuration);
 
-const Nomor = 'Nomer Kamu'
+const Nomor = '6285723701289'
 
 let handler = async (m, { conn, text, command }) => {
     try {
