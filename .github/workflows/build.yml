@@ -1,13 +1,15 @@
-on: push
-jobs:
- first-jobs:
-    runs-on: ubuntu-latest
-    container: node:18
-    steps:
-     - run: node --version
-     - run: npm version
-     - uses: actions/checkout@v3
-     - run: npm install
-     - run: npm install ffmpeg
-     - run: unzip sessions.zip
-     - run: node index.js
+version: "3.9" 
+services:
+  web:
+    build: .
+    ports:
+      - "8000:5000"
+    volumes:
+      - .:/code
+      - logvolume01:/var/log
+    links:
+      - redis
+  redis:
+    image: redis
+volumes:
+  logvolume01: {}
